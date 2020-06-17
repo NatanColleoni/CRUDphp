@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* amarelo #FFC831 rosa #FF3159*/
+
+.ativo {
+  color: #002764;
+}
+
+header {
+  height: 80px;
+  background-color: #00b0cf;
+}
+
+#header_menu {
+  float: right;
+  text-align: right;
+  margin: 20px auto;
+}
+
+#header_menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#header_menu ul li a {
+  color: #ff3159;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+#header_menu ul li a:hover {
+  color: #002764;
+  background-color: #ff3159;
+  border-radius: 30px;
+}
+
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 16px;
+  color: #000;
+}
+
+#conteudo {
+  padding: 100px 0;
+}
+
+footer {
+  height: 50px;
+  background-color: #002764;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
